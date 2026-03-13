@@ -35,3 +35,18 @@ A full-stack platform connecting language learners globally via real-time text c
 
 ## Run Locally
 ```bash
+# Clone the repo
+git clone https://github.com/fayiskooni/YOUR_REPO_NAME
+
+# Install dependencies
+cd backend && npm install
+cd ../frontend && npm install
+
+# Add environment variables
+# Backend: MONGO_URI, JWT_SECRET, STREAM_API_KEY, STREAM_SECRET
+# Frontend: VITE_STREAM_API_KEY
+
+# Run
+cd backend && npm run dev
+cd ../frontend && npm run dev
+```
